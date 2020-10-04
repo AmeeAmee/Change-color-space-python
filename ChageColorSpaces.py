@@ -15,7 +15,5 @@ cv2.imshow('y channel', img3[:, :, 0])
 cv2.imshow('u channel', img3[:, :, 1])
 cv2.imshow('v channel', img3[:, :, 2])
 
-cv2.imshow('h channel', img4[:, :, 0])
-cv2.imshow('s channel', img4[:, :, 1])
-cv2.imshow('v1 channel', img4[:, :, 2])
+
 cv2.waitKey()
